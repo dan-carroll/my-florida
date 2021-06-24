@@ -1,0 +1,19 @@
+url: "http://trulyflorida.net" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Truly Florida" # the name of your site, e.g. ACME Corp.
+email: dan@dmcarroll.net
+description: ""
+
+sass:
+    style: compressed
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+collections:
+  tags:
+    output: true
+    permalink: /tags/:path/    
