@@ -17,3 +17,27 @@ collections:
   tags:
     output: true
     permalink: /tags/:path/    
+  parks:
+    output: true
+    permalink: /parks/:path/
+  beaches:
+    output: true
+    permalink: /beaches/:path/
+  attractions:
+    output: true
+    permalink: /attractions/:path/
+  events:
+    output: true
+    permalink: /events/:path/
+  food-n-drink:
+    output: true
+    permalink: /food-n-drink/:path/
+  shops:
+    output: true
+    permalink: /shops/:path/
+  markets:
+    output: true
+    permalink: /markets/:path/
+  shopping:
+    output: true
+    permalink: /shopping/:path/
